@@ -2,5 +2,232 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
+.section{
+    height: 600px;
+    /* border: 10px solid red; */
+    
+}
+
+
+
+
+/* Styling heading section */
+.section-heading{
+    
+    background-image: url("images/background/header-bg.png");
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.wrapper-class{
+    text-align: start;
+    /* border: 5px solid silver; */
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+
+.greetings{
+    font-size: 32px;
+    font-weight: 500;
+}
+.colorful-name{
+    font-size: 45px;
+    font-weight: 1000;
+    margin-top: -20px;
+    color: brown;
+}
+
+.btn-paragraph{
+    /* border: 10px solid green; */
+   margin-left: 100px;
+   text-align: start;
+}
+
+.about-me{
+    font-weight: 200;
+    text-align: justify;
+    margin-right: -130px;
+
+}
+
+.colorful-button{
+    text-align: center;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    margin: 20px 320px 20px 0px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin-top: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.same-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.profile-picture{
+    width: 100%;
+}
+
+
+
+
+
+/* Styling biography section */
+.section-bigraphy{
+    background-image: url("images/background/biography-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.same-width img{
+    width: 100%;
+}
+
+.biography-image{
+    margin-top: 50px;
+}
+.biography-class{
+    text-align: start;
+    margin-top: 150px;
+}
+
+.biography-heading{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.biography-details{
+    font-weight: 200;
+}
+
+.colorful-button-cv{
+    text-align: center;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    margin: 20px 350px 20px 0px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Styling Latest work section  */
+.section-latest-work{
+    background-image: url("images/background/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.latest-work{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.image-class{
+    width: 100%;
+    height: 600px;
+    margin-left: 5%;
+    
+}
+
+.same-width-image{
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+
+.same-width-image img{
+    width: 100%;
+
+}
+
+
+
+/* Styling footer section */
+.section-footer{
+    
+    background-image: url("images/background/footer-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 10px solid red; */
+}
+
+.clients{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.clients-details{
+    text-align: center;
+    
+    
+}
+
+#job-position{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: -15px;
+}
+.quotes{
+   text-align: center;
+    margin: 20px 450px;
+}
+
+.contact{
+    text-align: center;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    margin: 40px 400px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.single-line{
+    
+    display: block;
+
+}
+
+.message{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #fff;
+    
+}
+
+.address{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.footer-class{
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+}
